@@ -49,7 +49,7 @@ jobs:
 
       - name: 克隆ImmortalWrt源代码 (Clone ImmortalWrt source)
         run: |
-          git clone https://github.com/hanwckf/immortalwrt-mt798x ${{ env.OPENWRT_SOURCE_DIR }}
+          git clone https://github.com/immortalwrt/immortalwrt
 
       # - name: 加载自定义源 (Load custom feeds)
       #   working-directory: ${{ env.OPENWRT_SOURCE_DIR }}
